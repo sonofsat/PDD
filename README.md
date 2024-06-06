@@ -1,16 +1,18 @@
-# QUÉ ES
+# Singleton
+
+## ¿Qué es?
 Singleton es un patrón de diseño que asegura que una clase solo tenga una instancia única y proporciona un punto de acceso global a esa instancia única.
 
 En otras palabras, es un patrón de creación que restringe la creación de clases a un solo objeto.
 
-# COMO FUNCIONA
+## ¿Cómo funciona?
 
 Singleton funciona creando una clase que tiene un método estático que devuelve la única instancia de la clase. Este método se llama "getInstance()" y se utiliza para obtener la instancia de la clase Singleton.
 
-# COMO RESUELVE EL PROBLEMA
+## ¿Cómo resuelve el problema?
 El problema que resuelve Singleton es el problema de los objetos globales. En un sistema grande, puede ser difícil controlar las dependencias entre los objetos. Y Singleton ofrece una solución a este problema al proporcionar un único punto de acceso global a una instancia de una clase.
 
-# IMPLEMENTACIÓN EN NODE.JS
+## Implementación en Node.js
 
 CONFIGURAR EL PROYECTO:
 mkdir PDD
@@ -74,7 +76,7 @@ true
 
 Esto demuestra que la implementación del patrón Singleton funciona correctamente y que solamente existe un única instancia de Singleton en el programa.
 
-# UML
+## UML
 
 ![alt text](<Singleton UML Class Diagram.png>)
 
